@@ -21,4 +21,4 @@ COPY . .
 
 
 
-CMD ["bundle", "exec", "rails", "s", "-e", "production", "-p", "80" ]
+CMD ["bundle", "exec", "rails", "s", "-e", "production", "-p", "80", "-b", "0.0.0.0" ]
